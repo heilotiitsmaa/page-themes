@@ -1,6 +1,9 @@
-import Page from './components/Page';
+import Page from './components/Page.jsx';
+import { Theme } from './components/Theme.jsx';
 const App = () => {
-  return <Page />
+  return ( <Theme>
+    <Page />
+    </Theme>)
 }
 
 export default App;
